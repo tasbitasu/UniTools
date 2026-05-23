@@ -142,19 +142,19 @@ flutter_launcher_icons: ^0.14.1   # Generates launcher icons from assets/logo.pn
 ### Run
 
 ```bash
-# Create flutter dependencies
+#Create flutter dependencies
 flutter create .
 
-# Install dependencies
+#Install dependencies
 flutter pub get
 
-# Generate Launcher Icons (for custom icon)
+#Generate Launcher Icons (for custom icon)
 flutter pub run flutter_launcher_icons
 ```
 This reads `assets/logo.png` and generates all required sizes for Android (`mipmap-*`) and iOS (`AppIcon.appiconset`).
 
 ---
-# Run on a connected device or emulator
+#Run on a connected device or emulator
 flutter run
 
 
